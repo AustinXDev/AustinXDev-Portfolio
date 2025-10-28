@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::after, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  font-family: roboto, sans-serif;
+  position: relative;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.page-wrapper{
+  position: relative;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black
+}
+main{
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+.main-grid{
+  margin-bottom: 10rem;
+}

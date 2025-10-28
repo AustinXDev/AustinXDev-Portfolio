@@ -1,0 +1,310 @@
+@media (max-width: 1366px){
+  .hero-text h1{
+    font-size: 2rem;
+    max-width: 300px;
+  }
+  .hire-me-btn{
+    margin: 13rem auto 0 auto;
+  }
+  .text{
+    font-size: 1rem;
+  }
+  blockquote{
+    padding: 3rem 3rem;
+  }
+  .about-me_subtitle{
+    font-size: 1.5rem;
+  }
+  .about-me_title{
+    font-size: 2.5rem;
+  }
+  .about-me-text{
+    font-size: 1rem;
+  }
+  .skills-grid-container{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1149px){
+  .hire-me-btn{
+    margin: 10rem auto 0 auto;
+  }
+  .welcome-text{
+    font-size: 13px;
+  }
+    .about-me_subtitle{
+    font-size: 1.5rem;
+  }
+  .about-me_title{
+    font-size: 2.5rem;
+  }
+  .about-me-text{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1024px){
+  .main-grid{
+    margin-bottom: 12rem;
+  }
+  .hero-text h1{
+    font-size: 1.5rem;
+    max-width: 200px;
+  }
+  .hire-me-btn{
+    max-width: 150px;
+    font-size: 12px;
+  }
+  .about-me-picture{
+    max-width: 700px;
+  }
+  .about-me-text-container{
+    margin: 0 1rem;
+  }
+  .about-me_subtitle{
+    font-size: 20px;
+  }
+  .about-me_title{
+    font-size: 25px;
+  }
+  .about-me-text{
+    font-size: 15px;
+
+  }
+
+  .skills-grid-box {
+    flex: 1 1 calc(50% - 1rem) !important;
+  }
+
+  .contact-header{
+  font-size: 3rem !important;
+ }
+
+ .contact-subheader{
+  font-size: 20px !important;
+ }
+
+ .contact-form-information_section{
+  gap: 1.5rem;
+}
+  .contact-grid{
+  padding: 0 !important;
+}
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .background-video-container{
+    height: 30vh;
+  }
+  .home-section{
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .home-grid{
+    width: 100%;
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+    max-width: 500px;
+    font-size: 13px;
+    margin: 1rem auto 0 auto ;
+  }
+  .hero-text{
+    font-size: 16px;
+    padding: 1rem 1rem;
+    margin-top: 4rem;
+  }
+
+  .hero-text h1{
+    font-size: 1.5rem;
+     text-align: center;
+     max-width: 100%;
+  }
+
+  .hire-me-btn{
+    margin: 0 auto 0 auto;
+    width: 100px;
+    font-size: 1rem;
+    padding: 5px 10px;
+  }
+
+  .social-icons{
+    margin-top: 10px;
+  }
+
+  .social-icons a{
+    margin: 0.50rem 1rem 0 1rem;
+  }
+  .social-icons .fa-facebook-f, .social-icons .fa-instagram, .social-icons .fa-envelope{
+    font-size: 1.5rem;
+  }
+  .social-icons .facebook-link, .social-icons .instagram-link, .social-icons .email-link{
+    padding: 5px 10px;
+  }
+  .facebook-link::after, .instagram-link::after, .email-link::after{
+    
+  }
+  blockquote{
+    display: none;
+  }
+
+  .about-me-section{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .about-me-text-container{
+    text-align: center;
+    max-width: 100%;
+    padding: 0 2rem;
+  }
+
+  .about-me-picture{
+    margin-bottom: 3rem;
+  }
+
+  .about-me_subtitle{
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .about-me_title{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 13px;
+  }
+
+  .about-me-text{
+    text-align: justify;
+    font-size: 15px;
+  }
+  .top-border{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .page-container{
+    font-size: 13px;
+    right: inherit;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .skills-grid-container{
+    flex-direction: column;
+  }
+
+  .projects-grid-container {
+    display: flex !important;      
+    flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 1rem;
+    padding: 10px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;            
+  }
+
+  .project-card {
+    min-width: 100%;               
+    max-width: 100%;
+    flex-shrink: 0;               
+    scroll-snap-align: center;
+    white-space: normal;            
+  }
+ .project-grid {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .projects-grid-container::-webkit-scrollbar {
+    display: none;
+  }
+
+ .contact-section{
+  flex-direction: column;
+  padding: 0 1.5rem !important;
+ }
+
+ .contact-header{
+  text-align: center;
+  font-size: 2rem !important;
+ }
+
+ .contact-subheader{
+  text-align: center;
+  font-size: 16px !important;
+ }
+
+ .contact-icon-container{
+  margin: 2rem 0 !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 5px !important;
+ }
+
+ .icon-container{
+  flex-direction: column;
+ }
+
+ .icon-container span{
+  max-width: 100px;
+  text-align: center;
+  font-size: 12px !important;
+ }
+
+ .csv-btn-container{
+  max-width: 160px;
+  margin: 0 auto;
+ }
+
+
+ .contact-form-information_section{
+    flex-direction: column;
+ }
+
+ .information-section{
+  justify-items: center !important;
+  align-items: center !important;
+ }
+
+ .contact-grid{
+  width: 100% !important;
+ }
+
+ .contact-information_section{
+  margin-top: 3rem;
+ }
+}
+
+@media (max-width: 400px){
+  .hero-text h1{
+    font-size: 20px;
+  }
+  .page-container{
+    font-size: 12px;
+  }
+  .icon-container span{
+    display: none;
+  }
+  .contact-icon-container{
+  flex-direction: row !important;
+ }
+
+ .footer-header{
+  font-size: 20px !important;
+ }
+ .contact-grid{
+  padding: 0 !important;
+}
+}
