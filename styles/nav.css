@@ -52,6 +52,8 @@
   display: none;
   padding: 7px 10px;
   border-radius: 50%;
+  position: relative;
+  z-index: 110;
 }
 
 
@@ -172,4 +174,5 @@
     padding: 10px 20px;
   }
 }
+
 
