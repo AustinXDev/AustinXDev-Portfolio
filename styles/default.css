@@ -8,11 +8,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  overflow: hidden;
+}
 html,body{
   font-family: roboto, sans-serif;
   position: relative;
+}
+html{
   scroll-behavior: smooth;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 .page-wrapper{
   position: relative;
@@ -31,6 +37,7 @@ main{
 
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .main-grid{
   margin-bottom: 10rem;
