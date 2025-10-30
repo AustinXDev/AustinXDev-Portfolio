@@ -6,6 +6,7 @@
   width: 100%;
   position: relative;
   padding: 0 2rem;
+  scroll-margin-top: 100px;
 }
 
 .what-i-do_header{
@@ -122,3 +123,4 @@
     transform: translateX(-50%);
   }
 }
+
