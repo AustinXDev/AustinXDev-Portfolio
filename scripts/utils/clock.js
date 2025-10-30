@@ -15,7 +15,7 @@ export function clock() {
     minutes = String(minutes).padStart(2, "0");
     seconds = String(seconds).padStart(2, "0");
 
-    clock.textContent = `${hours}:${minutes}:${seconds} ${ampm}`;
+    clock.textContent = `${hours}:${minutes} ${ampm}`;
   }
 
   setInterval(updateClock, 1000);
