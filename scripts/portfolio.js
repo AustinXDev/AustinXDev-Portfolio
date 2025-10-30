@@ -18,6 +18,36 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  
+  const desktopBtn = document.querySelector(".js-navbar-btn");
+  const mobileBtn = document.querySelector(".js-navbar-btn-mobile");
+  const navMobile = document.getElementById("navbar-mobile");
+  const navDesktop = document.getElementById("navbar");
+  const navLinks = document.querySelectorAll(".nav-links-mobile a");
+  const overlay = document.querySelector(".overlay");
+
+
+  desktopBtn.addEventListener("click", () => {
+    navMobile.classList.toggle("active");
+    navDesktop.classList.toggle("active");
+    overlay.classList.toggle("active");
+  });
+
+  mobileBtn.addEventListener("click", () => {
+    navMobile.classList.remove("active");
+    navDesktop.classList.toggle("active");
+    overlay.classList.remove("active");
+  });
+
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navMobile.classList.remove("active");
+      navDesktop.classList.toggle("active");
+      overlay.classList.remove("active");
+    });
+  });
+
+
 });
 
 /*
@@ -32,31 +62,3 @@ darkBTN.addEventListener('click', () => {
   icon.title = body.classList.contains('dark-mode') ? 'Brightness' : 'Dark Mode';
 });
 */
-
-const desktopBtn = document.querySelector(".js-navbar-btn");
-const mobileBtn = document.querySelector(".js-navbar-btn-mobile");
-const navMobile = document.getElementById("navbar-mobile");
-const navDesktop = document.getElementById("navbar");
-const navLinks = document.querySelectorAll(".nav-links-mobile a");
-const overlay = document.querySelector(".overlay");
-
-
-desktopBtn.addEventListener("click", () => {
-  navMobile.classList.toggle("active");
-  navDesktop.classList.toggle("active");
-  overlay.classList.toggle("active");
-});
-
-mobileBtn.addEventListener("click", () => {
-  navMobile.classList.toggle("active");
-  navDesktop.classList.toggle("active");
-  overlay.classList.remove("active");
-});
-
-navLinks.forEach(link => {
-  link.addEventListener("click", () => {
-    navMobile.classList.remove("active");
-    navDesktop.classList.toggle("active");
-    overlay.classList.remove("active");
-  });
-});
