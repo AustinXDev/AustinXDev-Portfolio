@@ -1,6 +1,7 @@
 .portfolio-section{
   width: 100%;
   position: relative;
+  scroll-margin-top: 100px;
 }
 
 .portfolio_header{
@@ -176,4 +177,5 @@
   text-align: left;
   font-size: clamp(0.90rem, 3vw, 1rem);
   color: white;
+
 }
